@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "../layout/root";
+import Home from "../pages/home";
 
-const Home = React.lazy(() => import('../pages/home'));
+//const Home = React.lazy(() => import('../pages/home'));
 const Contact = React.lazy(() => import('../pages/contact'));
 const About = React.lazy(() => import('../pages/about'));
 const SingleProject = React.lazy(() => import('../pages/single-project'));
