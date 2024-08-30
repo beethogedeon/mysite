@@ -1,8 +1,9 @@
-import React from 'react'
-import { ScrollRestoration } from 'react-router-dom'
-import Portfolio from '../components/sections/portfolio'
-import PageHeading from '../components/sections/pageHeading'
-import CallToAction from '../components/sections/callToAction'
+import React from 'react';
+import { ScrollRestoration } from 'react-router-dom';
+
+const Portfolio = React.lazy(() => import('../components/sections/portfolio'));
+const CallToAction = React.lazy(() => import('../components/sections/callToAction'));
+const PageHeading = React.lazy(() => import('../components/sections/pageHeading'));
 
 const Projects = () => {
   return (

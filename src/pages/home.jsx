@@ -1,16 +1,17 @@
 import React from 'react'
 import { ScrollRestoration } from 'react-router-dom'
-import Hero from '../components/sections/hero'
-import Portfolio from '../components/sections/portfolio'
-import CallToAction from '../components/sections/callToAction'
-import Partners from '../components/sections/partners'
+
+const Hero = React.lazy(() => import('../components/sections/hero'));
+const Portfolio = React.lazy(() => import('../components/sections/portfolio'));
+const CallToAction = React.lazy(() => import('../components/sections/callToAction'));
+const Partners = React.lazy(() => import('../components/sections/partners'));
 
 const Home = () => {
   return (
     <>
         <Hero/>
         <Portfolio/>
-        <Partners/>
+        {/*<Partners/>*/}
         <CallToAction/>
         <ScrollRestoration/>
     </>

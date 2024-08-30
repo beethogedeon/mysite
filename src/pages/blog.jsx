@@ -1,8 +1,9 @@
 import React from 'react'
-import { ScrollRestoration } from 'react-router-dom'
-import PageHeading from '../components/sections/pageHeading'
-import BlogList from '../components/sections/blog/blogList'
-import CallToAction from '../components/sections/callToAction'
+import { ScrollRestoration } from 'react-router-dom';
+
+const PageHeading = React.lazy(() => import('../components/sections/pageHeading'));
+const BlogList = React.lazy(() => import('../components/sections/blog/blogList'));
+const CallToAction = React.lazy(() => import('../components/sections/callToAction'));
 
 const Blog = () => {
     return (

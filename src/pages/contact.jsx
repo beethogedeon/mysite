@@ -1,7 +1,8 @@
 import React from 'react'
-import PageHeading from '../components/sections/pageHeading'
-import { ScrollRestoration } from 'react-router-dom'
-import ContactForm from '../components/sections/contactForm'
+import PageHeading from '../components/sections/pageHeading';
+import { ScrollRestoration } from 'react-router-dom';
+
+const ContactForm = React.lazy(() => import('../components/sections/contactForm'));
 
 const Contact = () => {
     return (

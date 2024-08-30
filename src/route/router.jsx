@@ -1,12 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "../layout/root";
-import Home from "../pages/home";
-import Contact from "../pages/contact";
-import About from "../pages/about";
-import SingleProject from "../pages/single-project";
-import Projects from "../pages/projects";
-import Blog from "../pages/blog";
-import SingleBlog from "../pages/single-blog";
+
+const Home = React.lazy(() => import('../pages/home'));
+const Contact = React.lazy(() => import('../pages/contact'));
+const About = React.lazy(() => import('../pages/about'));
+const SingleProject = React.lazy(() => import('../pages/single-project'));
+const Projects = React.lazy(() => import('../pages/projects'));
+const Blog = React.lazy(() => import('../pages/blog'));
+const SingleBlog = React.lazy(() => import('../pages/single-blog'));
+
 
 
 export const router = createBrowserRouter([

@@ -1,10 +1,11 @@
 import React from 'react'
-import { ScrollRestoration } from 'react-router-dom'
-import AboutCount from '../components/sections/about/aboutCount'
-import Summary from '../components/sections/about/summary'
-import Resume from '../components/sections/resume'
-import Services from '../components/sections/services'
-import CallToAction from '../components/sections/callToAction'
+import { ScrollRestoration } from 'react-router-dom';
+
+const AboutCount = React.lazy(() => import('../components/sections/about/aboutCount'));
+const Summary = React.lazy(() => import('../components/sections/about/summary'));
+const Resume = React.lazy(() => import('../components/sections/resume'));
+const Services = React.lazy(() => import('../components/sections/services'));
+const CallToAction = React.lazy(() => import('../components/sections/callToAction'));
 
 const About = () => {
 
