@@ -33,6 +33,10 @@ Version      : 1.0
 * 01.GLOBAL STYLE
 * ----------------------------------------------------------------------------------------
 */
+::selection, .hero-content::selection{
+    background-color: #824620;
+    color: #070707;
+}
 :root {
     --main-color: rgb(180, 180, 180);
     --heading-color: rgb(29, 29, 38);
@@ -68,7 +72,7 @@ body {
     background: var(--body-background);
     font-weight: 400;
     line-height: 30px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Ubuntu", sans-serif;
     overflow-x: hidden;
     overscroll-behavior-y: none;

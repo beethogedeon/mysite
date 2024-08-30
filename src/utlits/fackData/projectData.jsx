@@ -1,8 +1,8 @@
-import work_1 from "../../assets/images/projects/work1.jpg"
-import work_2 from "../../assets/images/projects/work2.jpg"
-import work_3 from "../../assets/images/projects/work3.jpg"
-import work_4 from "../../assets/images/projects/work4.jpg"
-import work_5 from "../../assets/images/projects/work5.jpg"
+import work_1 from "../../assets/images/projects/work1.jpg";
+import work_2 from "../../assets/images/projects/work2.jpg";
+import work_3 from "../../assets/images/projects/work3.jpg";
+import work_4 from "../../assets/images/projects/work4.jpg";
+import work_5 from "../../assets/images/projects/work5.jpg";
 
 export const projectsData = [
     {

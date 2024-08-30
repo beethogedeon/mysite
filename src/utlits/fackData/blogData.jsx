@@ -1,6 +1,6 @@
-import blog1 from "../../assets/images/blog/blog1.jpg"
-import blog2 from "../../assets/images/blog/blog2.jpg"
-import blog3 from "../../assets/images/blog/blog3.jpg"
+import blog1 from "../../assets/images/blog/blog1.jpg";
+import blog2 from "../../assets/images/blog/blog2.jpg";
+import blog3 from "../../assets/images/blog/blog3.jpg";
 
 export const blogData = [
     {

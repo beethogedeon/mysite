@@ -7,15 +7,17 @@ const AboutCount = () => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-12">
-                        <h2>About me</h2>
-                        <p>With over 12 years of dedicated focus on designing products that achieve business goals, I have established myself as a trusted professional in the industry.</p>
+                        <h2>About Me</h2>
+                        <p>
+                            <i>As an AI & Software Engineer with a passion for innovation, I specialize in developing cutting-edge solutions that leverage the power of artificial intelligence to solve complex business challenges. <br /> <br />My expertise spans machine learning, computer vision, and software development, allowing me to create impactful technology that drives real-world results.
+                            </i></p>
                     </div>
                 </div>
                 <div className="row">
-                    <Card count={"3"} title={"Years Of Experience"} />
-                    <Card count={"5"} endOprion={"k"} title={"Complete Great Projects"} />
-                    {/*<Card count={"90"} title={"Client Satisfactions"} />
-                    <Card count={"20"} title={"Cup of coffe"} />*/}
+                    <Card count={"03"} title={"Years Of Experience"} />
+                    <Card count={"05"} endOprion={""} title={"Great Projects Completed"} />
+                    <Card count={"01"} title={"Award"} />
+                    {/*<Card count={"20"} title={"Cup of coffe"} />*/}
                 </div>
             </div>
         </section>

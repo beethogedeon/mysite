@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import parse from 'html-react-parser';
 
 const PageHeading = ({heading, description}) => {
     return (
@@ -7,7 +8,7 @@ const PageHeading = ({heading, description}) => {
                 <div className="row align-items-center">
                     <div className="col-lg-12">
                         <h2>{heading}</h2>
-                        <p>{description}</p>
+                        <p><i>{parse(description)}</i></p>
                     </div>
                 </div>
             </div>

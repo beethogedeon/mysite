@@ -1,5 +1,6 @@
-import author1 from "../../assets/images/testimonials/author1.jpg"
-import author2 from "../../assets/images/testimonials/author2.jpg"
+import author1 from "../../assets/images/testimonials/author1.jpg";
+import author2 from "../../assets/images/testimonials/author2.jpg";
+
 export const testimonialsData = [
     {
         id: 1,

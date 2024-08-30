@@ -6,6 +6,9 @@ const Resume = () => {
             <div className="container">
                 <div className="container-inner">
                     <Education />
+                    <br />
+                    <br />
+                    <br />
                     <Experience />
                 </div>
             </div>
@@ -20,7 +23,9 @@ const Education = () => {
                 <div className="col-xl-12 col-lg-12">
                     <div className="section-title mb-40 wow fadeInUp delay-0-2s">
                         <h2>Education</h2>
-                        <p>Continuous learning and skill development in AI, Software Engineering, and Data Science.</p>
+                        <p>
+                            <i>Continuous learning and skill development in AI, Software Engineering, and Data Science.</i>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -57,7 +62,11 @@ const Experience = () => {
                 <div className="col-xl-12 col-lg-12">
                     <div className="section-title mb-40 wow fadeInUp delay-0-2s">
                         <h2>Professional Experience</h2>
-                        <p>Proven track record in AI development, software engineering, and IT management.</p>
+                        <p>
+                            <i>
+                                Proven track record in AI development, software engineering, and IT management.
+                            </i>
+                        </p>
                     </div>
                 </div>
             </div>

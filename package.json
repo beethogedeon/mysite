@@ -1,5 +1,5 @@
 {
-  "name": "wize",
+  "name": "beethogedeon",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,7 @@
     "@remixicon/react": "^4.2.0",
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.3.24",
+    "html-react-parser": "^5.1.15",
     "react": "^18.3.1",
     "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",

@@ -1,8 +1,9 @@
 import React from 'react';
 import { RiDownloadLine } from '@remixicon/react';
 import { Link } from 'react-router-dom';
+import profile from '../../assets/images/about/me.jpg';
 
-const profile = React.lazy(() => import('../../assets/images/about/me.jpg'));
+//const profile = React.lazy(() => import('../../assets/images/about/me.jpg'));
 
 const Hero = () => {
     return (
@@ -11,7 +12,7 @@ const Hero = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-4">
                         <div className="glitch">
-                            <img src={profile} alt="About Me" />
+                            <img src={profile} alt="Gedeon GBEDONOU" />
                         </div>
                     </div>
                     <div className="col-lg-8">
