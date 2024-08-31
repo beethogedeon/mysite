@@ -85,6 +85,12 @@ const Experience = () => {
                 <div className="col-xl-10">
                     <div className="resume-wrapper wow fadeInUp delay-0-2s">
                         <Card 
+                            year="Nov 2023 - Present"
+                            title="Head of Training Department | Volunteer"
+                            institution="Isheero, Benin"
+                            description=""
+                        />
+                        <Card 
                             year="Jun 2023 - Present"
                             title="AI Engineer"
                             institution="Freelance, Benin"

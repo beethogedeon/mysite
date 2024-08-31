@@ -1,5 +1,5 @@
 import React from 'react'
-//import {profile} from "../../../assets/images/about/me.jpg";
+import profile from "../../../assets/images/about/me2.jpg";
 
 const Summary = () => {
     return (
@@ -10,7 +10,7 @@ const Summary = () => {
                         {/* START ABOUT IMAGE DESIGN AREA */}
                         <div className="col-lg-5">
                             <div className="about-image-part wow fadeInUp delay-0-3s">
-                                <img src="./about/me.jpg" alt="Gedeon GBEDONOU" />
+                                <img src={profile} alt="Gedeon GBEDONOU" />
                             </div>
                         </div>
                         {/* END ABOUT IMAGE DESIGN AREA */}

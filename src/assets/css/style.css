@@ -37,6 +37,16 @@ Version      : 1.0
     background-color: #824620;
     color: #070707;
 }
+
+.grayscale-img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.grayscale-img:hover {
+    filter: grayscale(0%);
+}
+
 :root {
     --main-color: rgb(180, 180, 180);
     --heading-color: rgb(29, 29, 38);
@@ -1318,6 +1328,23 @@ html {
     animation: rotated_circle linear 10s infinite;
 }
 
+.about-image-part{
+    position: relative;
+    display: inline-block;
+}
+
+.about-image-part::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(130, 70, 32, 0.1); /* Custom color and opacity */
+    mix-blend-mode: color;
+    pointer-events: none; /* Ensure the image remains interactive */
+}
+
 
 
 .about-btn {
@@ -1386,10 +1413,11 @@ html {
 .service-item {
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    padding: 40px 20px;
+    padding: 20px 20px;
     border-radius: 12px;
-    border: 1px solid var(--black-color);
+    border: 1px solid var(--main-color);
     background: var(--black-color);
+    height: 17em;
 }
 
 
@@ -1703,7 +1731,8 @@ ul.extra-skills li i {
     margin-bottom: -6px;
     padding: 0 30px 24px;
     -webkit-transition: ease-out 0.5s;
-    transition: ease-out 0.5s
+    transition: ease-out 0.5s;
+    line-height: 0.6
 }
 
 .portfolio-box .portfolio-caption * {
@@ -1728,9 +1757,9 @@ ul.extra-skills li i {
 .portfolio-box:hover img {
     -webkit-transform: scale(1.04);
     transform: scale(1.04);
-    -webkit-filter: blur(1.5px);
+    -webkit-filter: blur(1px);
     filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="1.5" /></filter></svg>#filter');
-    filter: blur(1.5px)
+    filter: blur(1px)
 }
 
 .portfolio-box:hover .portfolio-caption {
@@ -3230,4 +3259,8 @@ ul.blog_pagination li a:hover {
     overflow: hidden;
     /* box-sizing: border-box; */
     /* will-change: transform; */
+}
+
+h1{
+    list-style: 0.6!important;
 }

@@ -1,4 +1,4 @@
-import hackathon1 from '../../assets/images/gallery/hackathon.jpeg';
+import hackathon1 from '../../assets/images/gallery/hackathon.jpg';
 import mnd from '../../assets/images/gallery/mnd.jpeg';
 import hackathon2 from '../../assets/images/gallery/hackathon2.jpeg';
 import workshop1 from '../../assets/images/gallery/workshop1.jpeg';
@@ -8,6 +8,9 @@ import atut2 from '../../assets/images/gallery/atut2.jpeg';
 import tita1 from '../../assets/images/gallery/tita.jpeg';
 import acl from '../../assets/images/gallery/acl.jpeg';
 import acl2 from '../../assets/images/gallery/acl2.jpeg';
+import benrover from '../../assets/images/gallery/benrover.jpg';
+import isheeroatut from '../../assets/images/gallery/isheero-atut.jpg';
+import isheeroatut2 from '../../assets/images/gallery/isheero-atut2.jpg';
 import { AiFillCloseCircle } from 'react-icons/ai';
 
 export const galleryData = [
@@ -91,4 +94,29 @@ export const galleryData = [
         title: "African Cities Labs Summit",
         size: "large"
     },
+    {
+        id: 11,
+        src: benrover,
+        link:"https://benrover.tekbot.io",
+        category: "Robotics Competition",
+        title: "Africa Rover Challenge - Team BenRover",
+        size: "normal"
+    },
+    {
+        id: 12,
+        src: isheeroatut,
+        link:"https://www.linkedin.com/posts/isheero_africatechuptour-isheero-aezducation-activity-7216360164201766912-V6QP?utm_source=share&utm_medium=member_desktop",
+        category: "Event",
+        title: "Isheero ATUT 2024",
+        size: "normal"
+    },
+    {
+        id: 13,
+        src: isheeroatut2,
+        link:"https://www.linkedin.com/posts/isheero_africatechuptour-isheero-aezducation-activity-7216360164201766912-V6QP?utm_source=share&utm_medium=member_desktop",
+        category: "Event",
+        title: "Isheero ATUT 2024",
+        size: "normal"
+    }
+
 ]
