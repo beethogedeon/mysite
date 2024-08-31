@@ -30,7 +30,7 @@ const Gallery = () => {
                             return (
                                 <div key={id} className={`${size === "large" ? "col-md-6 col-xl-6" : "col-md-6 col-xl-4"} portfolio-item category-${id}`}>
                                     <div className="work-popup">
-                                        <div onClick={() => openSlider(index)} className="portfolio-box">
+                                        <div className="portfolio-box">
                                             <img src={src} alt="" style={{height:"auto", width:"auto", minHeight:"300px",
                                             }} data-rjs="2" />
                                             <span className="portfolio-category">{category}</span>
