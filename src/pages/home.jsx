@@ -4,7 +4,6 @@ import { ScrollRestoration } from 'react-router-dom'
 const Hero = React.lazy(() => import('../components/sections/hero'));
 const Portfolio = React.lazy(() => import('../components/sections/portfolio'));
 const CallToAction = React.lazy(() => import('../components/sections/callToAction'));
-const Partners = React.lazy(() => import('../components/sections/partners'));
 
 const Home = () => {
   return (
