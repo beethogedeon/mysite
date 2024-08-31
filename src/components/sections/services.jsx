@@ -8,7 +8,8 @@ const Services = () => {
                 <div className="col-xl-12 col-lg-12">
                     <div className="section-title mb-40 wow fadeInUp delay-0-2s">
                         <h2>Services</h2>
-                        <p>Cutting-edge AI solutions tailored to transform your business and drive innovation.</p>
+                        <p><i>Cutting-edge AI solutions tailored to transform your business and drive innovation.
+                            </i></p>
                     </div>
                 </div>
             </div>
@@ -21,7 +22,7 @@ const Services = () => {
                 <Card 
                     description="Create advanced computer vision solutions for image recognition, object detection, and visual data analysis."
                     icon={<RiEyeFill size={40}/>} 
-                    title="Computer Vision Projects" 
+                    title="Computer Vision" 
                 />
                 <Card 
                     description="Provide expert consultation on AI strategy, implementation, and optimization to help businesses leverage the power of artificial intelligence."
@@ -36,12 +37,16 @@ const Services = () => {
 const Card = ({ description, icon, title }) => {
     return (
         <div className="col-md-6 col-lg-4">
-            <div className="service-item wow fadeInUp delay-0-2s">
-                <div className="icon items-center">{icon}</div>
-                <h4>{title}</h4>
-                <p>{description}</p>
-            </div>
+    <div className="service-item wow fadeInUp delay-0-2s">
+        <div className="icon d-flex justify-content-center align-items-center">
+            {icon}
         </div>
+        <br />
+        <h3 style={{textAlign:"center"}}>{title}</h3>
+        <p style={{textAlign:"justify"}}>{description}</p>
+    </div>
+</div>
+
     );
 }
 

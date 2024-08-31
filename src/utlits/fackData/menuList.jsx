@@ -16,6 +16,11 @@ export const menuList = [
     },
     {
         id: 4,
+        path: "/gallery",
+        label: "Gallery"
+    },
+    {
+        id: 5,
         path: "/contact",
         label: "Contact"
     },

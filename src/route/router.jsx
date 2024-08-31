@@ -7,6 +7,7 @@ const Contact = React.lazy(() => import('../pages/contact'));
 const About = React.lazy(() => import('../pages/about'));
 const SingleProject = React.lazy(() => import('../pages/single-project'));
 const Projects = React.lazy(() => import('../pages/projects'));
+const Gallery = React.lazy(() => import('../pages/gallery'));
 const Blog = React.lazy(() => import('../pages/blog'));
 const SingleBlog = React.lazy(() => import('../pages/single-blog'));
 
@@ -44,6 +45,11 @@ export const router = createBrowserRouter([
             {
                 path: "/projects",
                 element: <Projects />
+            },
+            
+            {
+                path: "/gallery",
+                element: <Gallery />
             },
         ]
     }

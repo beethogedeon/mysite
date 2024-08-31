@@ -1,45 +1,41 @@
-import work_1 from "../../assets/images/projects/work1.jpg";
-import work_2 from "../../assets/images/projects/work2.jpg";
-import work_3 from "../../assets/images/projects/work3.jpg";
-import work_4 from "../../assets/images/projects/work4.jpg";
-import work_5 from "../../assets/images/projects/work5.jpg";
+import intrusalerts from "../../assets/images/projects/intrusalert.jpg";
+import dokoun from "../../assets/images/projects/dokoun.jpg";
+import sympa from "../../assets/images/projects/sympa.jpg";
+import rdd from "../../assets/images/projects/rdd.jpg"
+//import work_4 from "../../assets/images/projects/work4.jpg";
+//import work_5 from "../../assets/images/projects/work5.jpg";
 
 export const projectsData = [
     {
         id: 1,
-        src: work_1,
-        category: "Branding",
-        title: "Glasses of Cocktail",
+        src: intrusalerts,
+        link:"https://github.com/beethogedeon/intrusalerts",
+        category: "Computer Vision",
+        title: "AI-Based Intrusion Detection System",
         size: "large"
     },
     {
         id: 2,
-        src: work_2,
-        category: "Mockup",
-        title: "A Branch with Flowers",
+        src: dokoun,
+        link:"https://github.com/imole-bj/VideoDubbing",
+        category: "Speech",
+        title: "Subtitling and Dubbing Platform in Benin Language",
         size: "large"
     },
     {
         id: 3,
-        src: work_3,
-        category: "Video",
-        title: "Orange Rose Flower",
-        size: "normal"
+        src: sympa,
+        link:"https://t.me/sympacoachbot",
+        category: "NLP",
+        title: "AI-Based Fitness Assistant",
+        size: "large"
     },
     {
         id: 4,
-        src: work_4,
-        category: "Branding",
-        title: "Green Plant on a Desk",
-        size: "normal"
+        src: rdd,
+        link:"https://github.com/beethogedeon/RoadScan",
+        category: "Computer Vision",
+        title: "Road Damage Detection",
+        size: "large"
     },
-    {
-        id: 5,
-        src: work_5,
-        category: "Mockup",
-        title: "Orange Rose Flower",
-        size: "normal"
-    },
-
-
 ]

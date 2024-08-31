@@ -20,13 +20,13 @@ const Summary = () => {
                                 <h2>
                                     A passionate <span>AI & Software Engineer</span> transforming <span>ideas</span> into innovative tech solutions.
                                 </h2>
-                                <p>
-                                    Hello! I'm Gedeon, a dedicated AI & Software Engineer with a strong foundation in computer science and a specialization in artificial intelligence. My journey in tech began during my studies and has evolved through various projects and professional experiences.
+                                <p style={{textAlign:"justify"}}>
+                                    Hello! I'm <b>Gedeon</b>, a dedicated <i>AI & Software Engineer</i> with a strong foundation in computer science and a specialization in artificial intelligence. My journey in tech began during my studies and has evolved through various projects and professional experiences.
                                 </p>
-                                <p>
+                                <p style={{textAlign:"justify"}}>
                                     I'm committed to leveraging cutting-edge innovations, particularly in AI, to address pressing challenges and unlock potential, especially in the African context. My expertise spans machine learning, computer vision, and NLP, allowing me to develop sophisticated solutions from chatbots to complex AI systems.
                                 </p>
-                                <p>
+                                <p style={{textAlign:"justify"}}>
                                     With experience in both freelance and corporate environments, I bring a versatile skill set to every project. I'm passionate about continuous learning and staying at the forefront of technological advancements to deliver exceptional results.
                                 </p>
                             </div>

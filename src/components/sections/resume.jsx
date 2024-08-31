@@ -33,9 +33,24 @@ const Education = () => {
                 <div className="col-xl-10">
                     <div className="resume-wrapper wow fadeInUp delay-0-2s">
                         <Card 
+                            year="Nov 2023 - Jan 2024"
+                            title="Design Thinking"
+                            institution="Sèmè City, Benin"
+                        />
+                        <Card 
+                            year="Nov 2023 - Jan 2024"
+                            title="Agile Approaches"
+                            institution="Sèmè City, Benin"
+                        />
+                        <Card 
                             year="Feb 2023 - Jun 2023"
                             title="Vocational Program in Data Science/AI"
                             institution="Africa TechUp Tour - iSheero, Benin"
+                        />
+                        <Card 
+                            year="Nov 2022 - May 2023"
+                            title="Vocational Program in Artificial Intelligence"
+                            institution="Tita Digital Skills, Benin"
                         />
                         <Card 
                             year="Sep 2019 - Oct 2022"
@@ -43,11 +58,7 @@ const Education = () => {
                             institution="National School of Applied Economics and Management, Benin"
                             description="GPA: 3.0"
                         />
-                        <Card 
-                            year="Nov 2022 - May 2023"
-                            title="Vocational Program in Artificial Intelligence"
-                            institution="Tita Digital Skills, Benin"
-                        />
+                        
                     </div>
                 </div>
             </div>
@@ -90,6 +101,12 @@ const Experience = () => {
                             title="IT Intern"
                             institution="Benin Terminal - Bollore Group, Benin"
                             description="Server virtualization - Network maintenance - Creating and configuring an MPLS network - Implementation of dynamic routing protocols (OSPF, BGP, EIGRP) VPN - Staff support"
+                        />
+                        <Card 
+                            year="Jul 2021 - Aug 2021"
+                            title="IT Intern"
+                            institution="QCT Group, Benin"
+                            description="Web Development"
                         />
                     </div>
                 </div>

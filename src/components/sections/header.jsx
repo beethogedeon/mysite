@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { RiFacebookCircleFill, RiGithubLine, RiLinkedinFill, RiTwitterXLine } from "@remixicon/react";
 
-import logo from "../../assets/images/logos/logo.png"
 import { menuList } from '../../utlits/fackData/menuList';
 
 const Header = () => {
@@ -67,7 +66,7 @@ const Header = () => {
             </div>
             <div className="about-social text-center">
               <ul>
-                {/*<li><Link to=""><i><RiFacebookCircleFill size={20} /></i>  </Link></li>*/}
+                <li><Link to="https://facebook.com/gedeongbednou"><i><RiFacebookCircleFill size={20} /></i>  </Link></li>
                 {/*<li><Link to=""><i><RiTwitterXLine size={20} /> </i></Link></li>*/}
                 <li><Link to="https://linkedin.com/in/gedeongbedonou"><i><RiLinkedinFill size={20} /></i></Link></li>
                 <li><Link to="https://github.com/beethogedeon"><i><RiGithubLine size={20} /></i></Link></li>
