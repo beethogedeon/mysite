@@ -58,7 +58,15 @@ const Header = () => {
                 </div>
                 <div className="navbar-collapse collapse">
                   <ul className="navigation clearfix">
-                    {menuList.map(({id, label, path}) => <li key={id}><Link className="nav-link-click" to={path}>{label}</Link></li>)}
+                    {menuList.map(({id, label, path}) => <li key={id}><Link 
+    className="nav-link-click" 
+    to={path}
+    target={id === 5 ? "_blank" : undefined}
+    rel={id === 5 ? "noopener noreferrer" : undefined}
+  >
+    {label}
+  </Link>
+</li>)}
                   </ul>
                 </div>
               </nav>
@@ -66,10 +74,10 @@ const Header = () => {
             </div>
             <div className="about-social text-center">
               <ul>
-                <li><Link to="https://facebook.com/gedeongbednou"><i><RiFacebookCircleFill size={20} /></i>  </Link></li>
+                <li><Link to="https://facebook.com/gedeongbednou" target='_blank' rel='noopener noreferrer'><i><RiFacebookCircleFill size={20} /></i>  </Link></li>
                 {/*<li><Link to=""><i><RiTwitterXLine size={20} /> </i></Link></li>*/}
-                <li><Link to="https://linkedin.com/in/gedeongbedonou"><i><RiLinkedinFill size={20} /></i></Link></li>
-                <li><Link to="https://github.com/beethogedeon"><i><RiGithubLine size={20} /></i></Link></li>
+                <li><Link to="https://linkedin.com/in/gedeongbedonou" target='_blank' rel='noopener noreferrer'><i><RiLinkedinFill size={20} /></i></Link></li>
+                <li><Link to="https://github.com/beethogedeon" target='_blank' rel='noopener noreferrer'><i><RiGithubLine size={20} /></i></Link></li>
               </ul>
             </div>
           </div>

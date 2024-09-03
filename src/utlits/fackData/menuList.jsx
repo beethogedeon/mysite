@@ -21,7 +21,7 @@ export const menuList = [
     },
     {
         id: 5,
-        path: "/contact",
+        path: "mailto:beethovengedeon@gmail.com",
         label: "Contact"
     },
 

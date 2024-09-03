@@ -15,7 +15,7 @@ const CallToAction = () => {
                                 <i>Let's collaborate on cutting-edge software development and AI solutions. Available for project-based work and AI consultations to drive innovation in your business.</i>
                             </p>
                             <div className="hero-btns">
-                                <Link to="/contact" className="theme-btn call-to-action-button">Innovate Now <i><RiDownloadLine size={16}/></i></Link>
+                                <Link to="mailto:beethovengedeon@gmail.com" target='_blank' rel='noopener noreferrer' className="theme-btn call-to-action-button">Innovate Now <i><RiDownloadLine size={16}/></i></Link>
                             </div>
                         </div>
                     </div>
